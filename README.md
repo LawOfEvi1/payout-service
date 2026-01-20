@@ -87,15 +87,9 @@ docker-compose up --build -d
 
 ---
 
-### 4. Применение миграций
 
-```bash
-make migrate
-```
 
----
-
-### 5. Запуск Celery worker
+### 4. Запуск Celery worker
 
 Worker запускается автоматически через docker-compose.
 
@@ -107,7 +101,7 @@ make celery
 
 ---
 
-### 6. Запуск тестов
+### 5. Запуск тестов
 
 ```bash
 make test
@@ -115,7 +109,7 @@ make test
 
 ---
 
-### 7. Доступ к API
+### 6. Доступ к API
 
 API доступно по адресу:
 
