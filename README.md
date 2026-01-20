@@ -89,7 +89,7 @@ docker-compose up --build -d
 
 
 
-### 4. Запуск Celery worker
+### 4. Просмотр логов Celery
 
 Worker запускается автоматически через docker-compose.
 
