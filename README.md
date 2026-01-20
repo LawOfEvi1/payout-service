@@ -42,7 +42,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/LawOfEvi1/payout-service
 cd payout-service
 ```
 
