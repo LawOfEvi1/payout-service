@@ -54,4 +54,4 @@ makemigrations:
 
 .PHONY: celery
 celery:
-	docker-compose logs -f worker
+	docker-compose logs -f celery
