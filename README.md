@@ -53,19 +53,20 @@ cd payout-service
 Создать файл `.env` в корне проекта:
 
 ```env
+# Django
 DEBUG=1
-SECRET_KEY=super-secret-key
+SECRET_KEY=my-very-secret-key
 
-POSTGRES_DB=payouts
-POSTGRES_USER=payouts
-POSTGRES_PASSWORD=payouts
-POSTGRES_HOST=db
-POSTGRES_PORT=5432
+# PostgreSQL
+DB_NAME=payouts
+DB_USER=payouts
+DB_PASSWORD=payouts
+DB_HOST=db
+DB_PORT=5432
 
-REDIS_HOST=redis
-REDIS_PORT=6379
-
+# Celery
 CELERY_BROKER_URL=redis://redis:6379/0
+CELERY_RESULT_BACKEND=redis://redis:6379/0
 CELERY_RESULT_BACKEND=redis://redis:6379/0
 ```
 
